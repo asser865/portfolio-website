@@ -22,9 +22,10 @@
 }
 
 .newtons-cradle {
-  --uib-size: 50px;
-  --uib-speed: 1.2s;
-  --uib-color: #00f5c3; /* Matched to theme color */
+  --uib-size: 100px;
+  --uib-speed: 1.6s;
+  --uib-color: #00f5c3;
+  /* Matched to theme color */
   position: relative;
   display: flex;
   align-items: center;
@@ -64,10 +65,12 @@
     transform: rotate(0deg);
     animation-timing-function: ease-out;
   }
+
   25% {
     transform: rotate(70deg);
     animation-timing-function: ease-in;
   }
+
   50% {
     transform: rotate(0deg);
     animation-timing-function: linear;
@@ -79,10 +82,12 @@
     transform: rotate(0deg);
     animation-timing-function: linear;
   }
+
   50% {
     transform: rotate(0deg);
     animation-timing-function: ease-out;
   }
+
   75% {
     transform: rotate(-70deg);
     animation-timing-function: ease-in;
@@ -110,7 +115,9 @@
   #RESET
 \*-----------------------------------*/
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -120,8 +127,8 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-body {
-  background: #121212;
+html body {
+  background: linear-gradient(to right, #434343 0%, black 100%) !important;
   color: #d6d6d6;
 }
 
@@ -134,7 +141,11 @@ li {
   list-style: none;
 }
 
-img, ion-icon, a, button, span {
+img,
+ion-icon,
+a,
+button,
+span {
   display: block;
 }
 
@@ -165,13 +176,15 @@ body::-webkit-scrollbar {
 main {
   margin: 15px 12px;
   margin-bottom: 75px;
-  opacity: 0; /* Hide main content initially */
+  opacity: 0;
+  /* Hide main content initially */
   visibility: hidden;
   transition: opacity 0.5s ease-in-out;
 }
 
 body.loaded main {
-  opacity: 1; /* Show main content when body is loaded */
+  opacity: 1;
+  /* Show main content when body is loaded */
   visibility: visible;
 }
 
@@ -190,6 +203,7 @@ article.active {
     opacity: 0;
     transform: translateX(30px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -229,7 +243,7 @@ article.active {
 }
 
 .avatar-box {
-  background: linear-gradient( to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97% );
+  background: linear-gradient(to bottom right, hsl(240, 1%, 25%) 3%, hsl(0, 0%, 19%) 97%);
   border-radius: 20px;
   overflow: hidden;
 }
@@ -266,7 +280,7 @@ article.active {
   border-radius: 0 15px;
   font-size: 13px;
   color: var(--sky-blue-crayola);
-  background: linear-gradient( to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50% );
+  background: linear-gradient(to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%);
   padding: 10px;
   box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
   transition: 0.25s ease;
@@ -281,7 +295,7 @@ article.active {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: linear-gradient( to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100% ), hsl(240, 2%, 13%);
+  background: linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);
   transition: 0.25s ease;
   z-index: -1;
 }
@@ -321,7 +335,7 @@ article.active {
 
 .icon-box {
   position: relative;
-  background: linear-gradient( to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50% );
+  background: linear-gradient(to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%);
   width: 30px;
   height: 30px;
   border-radius: 8px;
@@ -358,8 +372,6 @@ article.active {
 .contact-info :is(.contact-link, address) {
   color: #fafafa;
   font-size: 13px;
-  overflow-wrap: break-word; /* This is the fix for the long email */
-  word-break: break-all;     /* A fallback for extra compatibility */
 }
 
 .contact-info address {
@@ -370,18 +382,20 @@ article.active {
   display: flex;
   align-items: center;
   gap: 15px;
-  padding-left: 7px;
+  padding-left: 50px;
   flex-wrap: wrap;
 }
 
 .social-item .social-link {
-  color: hsla(0, 0%, 84%, 0.7);
+  color: hsl(0, 0%, 100%);
   font-size: 18px;
-  transition: color 0.3s ease;
+
+  transition: color 0.5s ease-in-out;
+
 }
 
 .social-item .social-link:hover {
-  color: #d6d6d6;
+  color: #00f5c3;
 }
 
 .animated-btn {
@@ -407,7 +421,7 @@ article.active {
   font-weight: 600;
   color: #d6d6d6;
   transition: .5s linear;
-  border-radius: 12px;
+  border-radius: 7px;
 }
 
 .box ion-icon {
@@ -425,6 +439,7 @@ article.active {
   border-left: 4px solid transparent;
   box-sizing: border-box;
   transform: translateX(100%);
+  border-radius: 7px;
 }
 
 .box:after {
@@ -438,6 +453,7 @@ article.active {
   border-right: 4px solid transparent;
   box-sizing: border-box;
   transform: translateX(-100%);
+  border-radius: 7px;
 }
 
 .animated-btn:hover .box {
@@ -449,14 +465,14 @@ article.active {
   border-color: var(--sky-blue-crayola);
   height: 100%;
   transform: translateX(0);
-  transition: .3s transform linear, .3s height linear .3s;
+  transition: .2s transform linear, .2s height linear .2s;
 }
 
 .animated-btn:hover .box:after {
   border-color: var(--sky-blue-crayola);
   height: 100%;
   transform: translateX(0);
-  transition: .3s transform linear, .3s height linear .5s;
+  transition: .2s transform linear, .2s height linear .2s;
 }
 
 
@@ -536,7 +552,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: linear-gradient( to right, var(--sky-blue-crayola), var(--vegas-gold) );
+  background: linear-gradient(to right, var(--sky-blue-crayola), var(--vegas-gold));
   border-radius: 3px;
 }
 
@@ -663,8 +679,8 @@ article.active {
 
 .card {
   position: relative;
-  width: 100%;
-  height: 220px;
+  width: 110%;
+  height: 250px;
   background-color: #1e1e1f;
   border-radius: 10px;
   display: flex;
@@ -673,14 +689,15 @@ article.active {
   overflow: hidden;
   perspective: 1000px;
   box-shadow: 0 0 0 5px hsla(0, 0%, 100%, 0.1);
-  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 20px;
 }
 
 .card__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .card:hover {
@@ -696,10 +713,11 @@ article.active {
   height: 100%;
   padding: 20px;
   box-sizing: border-box;
-  background-color: #2b2b33;
+  background-color: #252525;
   transform: rotateX(-90deg);
   transform-origin: bottom;
-  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 20px;
 }
 
 .card:hover .card__content {
@@ -718,7 +736,7 @@ article.active {
 }
 
 .card__description {
-  margin: 10px 0 0;
+  margin: 40px 0 0;
   font-size: 14px;
   color: #d6d6d6;
   line-height: 1.4;
@@ -786,7 +804,7 @@ article.active {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: linear-gradient( to right, var(--sky-blue-crayola), var(--vegas-gold) );
+  background: linear-gradient(to right, var(--sky-blue-crayola), var(--vegas-gold));
   border-radius: 50%;
   box-shadow: 0 0 0 4px #383838;
 }
@@ -801,8 +819,9 @@ article.active {
 }
 
 .skills-list {
-  display: grid;
-  gap: 15px;
+  background: hsl(0, 0%, 15%);
+  padding: 20px;
+  border-radius: 14px;
 }
 
 .skills-item .title-wrapper {
@@ -848,7 +867,7 @@ article.active {
 
 .portfolio-banner-box {
   width: 100%;
-  height: 200px;
+  height: 280px;
   overflow: hidden;
 }
 
@@ -856,9 +875,10 @@ article.active {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: 0.25s ease;
-  border-radius: 14px 14px 0 0;
+  transition: 0.5s cubic-bezier(0.4, 0.54, 0.67, 0.21);
+  border-radius: 10px 10px 0 0;
 }
+
 
 .portfolio-post-item:hover .portfolio-banner-box img {
   transform: scale(1.05);
@@ -898,7 +918,7 @@ article.active {
 
 .project-detail-banner {
   width: 100%;
-  height: 400px;
+  height: 600px;
   border-radius: 12px;
   overflow: hidden;
   margin-bottom: 20px;
@@ -937,6 +957,19 @@ article.active {
   border: 1px solid #383838;
 }
 
+.project-detail-info .detail-link {
+  display: inline;
+  /* Allows the link to sit on the same line */
+  color: var(--sky-blue-crayola);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.25s ease;
+}
+
+.project-detail-info .detail-link:hover {
+  color: var(--vegas-gold);
+}
+
 .project-detail-info li {
   font-size: 14px;
 }
@@ -949,66 +982,6 @@ article.active {
   font-weight: 500;
   color: #fafafa;
   margin-right: 10px;
-}
-
-.project-detail-info .detail-link {
-  display: inline;
-  color: var(--sky-blue-crayola);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  transition: color 0.25s ease;
-}
-
-.project-detail-info .detail-link:hover {
-  color: var(--vegas-gold);
-}
-
-
-
-
-
-/*-----------------------------------*\
-  #BACK BUTTON
-\*-----------------------------------*/
-
-.back-btn {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  border-radius: 50%;
-  z-index: 5;
-}
-
-.back-btn .left {
-  display: inline-block;
-  width: 48px;
-  height: 48px;
-  border: 6px solid var(--sky-blue-crayola);
-  border-radius: 50%;
-  transition: border-color 0.25s ease;
-  position: relative; /* Add this for positioning context */
-}
-
-.back-btn .left::after {
-  content: '';
-  position: absolute; /* Change to absolute */
-  top: 12px; /* Position from top */
-  left: 15px; /* Position from left */
-  width: 14px;
-  height: 14px;
-  border-top: 6px solid var(--sky-blue-crayola);
-  border-right: 6px solid var(--sky-blue-crayola);
-  transform: rotate(-135deg);
-  transition: border-color 0.25s ease;
-}
-
-.back-btn:hover .left {
-  border-color: var(--vegas-gold);
-}
-
-.back-btn:hover .left::after {
-  border-top-color: var(--vegas-gold);
-  border-right-color: var(--vegas-gold);
 }
 
 
@@ -1027,7 +1000,7 @@ article.active {
 
   .sidebar,
   .main-content {
-    max-width: 520px; /* Changed from width to max-width */
+    width: 520px;
     margin-inline: auto;
     padding: 30px;
   }
@@ -1052,11 +1025,11 @@ article.active {
   .info-content .name {
     font-size: 24px;
   }
-  
+
   .info-content .title {
     padding: 5px 18px;
   }
-  
+
   .info_more-btn {
     top: -30px;
     right: -30px;
@@ -1071,11 +1044,11 @@ article.active {
   .info_more-btn ion-icon {
     display: none;
   }
-  
+
   .separator {
     margin: 32px 0;
   }
-  
+
   .contacts-list {
     gap: 20px;
   }
@@ -1097,7 +1070,7 @@ article.active {
   .navbar-list {
     gap: 20px;
   }
-  
+
   .navbar-link {
     font-size: 13px;
   }
@@ -1109,15 +1082,17 @@ article.active {
   .service-item .service-icon-box data {
     font-size: 40px;
   }
-  
+
   .project-list {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 768px) {
-  .sidebar, .main-content {
-    max-width: 700px; /* Changed from width to max-width */
+
+  .sidebar,
+  .main-content {
+    width: 700px;
   }
 
   .sidebar.active {
@@ -1128,7 +1103,7 @@ article.active {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
   }
-  
+
   .portfolio-posts-list {
     grid-template-columns: 1fr 1fr;
   }
@@ -1136,17 +1111,20 @@ article.active {
   .service-list {
     grid-template-columns: repeat(3, 1fr);
   }
+
   .service-item {
     padding: 30px;
   }
 }
 
 @media (min-width: 1024px) {
-  .sidebar, .main-content {
-    max-width: 950px; /* Changed from width to max-width */
+
+  .sidebar,
+  .main-content {
+    width: 950px;
     box-shadow: 0 24px 80px hsla(0, 0%, 0%, 0.25);
   }
-  
+
   .main-content {
     position: relative;
   }
@@ -1162,12 +1140,12 @@ article.active {
     padding: 0 20px;
     box-shadow: none;
   }
-  
+
   .navbar-list {
     gap: 30px;
     padding: 0 20px;
   }
-  
+
   .navbar-link {
     font-weight: 500;
   }
@@ -1177,7 +1155,7 @@ article.active {
   body {
     background: hsl(0, 0%, 7%);
   }
-  
+
   body::-webkit-scrollbar {
     width: 20px;
   }
@@ -1199,13 +1177,13 @@ article.active {
     gap: 25px;
     align-items: stretch;
   }
-  
+
   .main-content {
     width: 75%;
     margin: 0;
     min-height: 100%;
   }
-  
+
   .sidebar {
     position: sticky;
     top: 60px;
@@ -1224,11 +1202,11 @@ article.active {
   .avatar-box {
     width: 150px;
   }
-  
+
   .info-content .name {
     text-align: center;
   }
-  
+
   .info-content .title {
     margin-inline: auto;
   }
@@ -1256,3 +1234,6 @@ article.active {
     max-width: 700px;
   }
 }
+
+
+
