@@ -1,0 +1,135 @@
+{
+  "portrait": {
+    "widths": [
+      480,
+      800
+    ],
+    "width": 800,
+    "height": 1070,
+    "aspect": 0.7474,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAAAwBQCdASoYACAAPxFyrlCsJqQisBgMAYAiCWkACwAEh4i1bfQR3PzlO8lN+kpCt0QvgAD+SK1gPaIB3o46qu4+XvM45DoT5HyGNRbvrIhJXhppai///f2HfXKYDw39r+Gzxn6GOTdahrXGev4jnIcFTUrW8CJvyY812lp1v+OGmIi0UvDBVTm2efFM7EIcCVEmJNXXAFrrhHbEhXtTRqN0YTa8JQ3N0/oJHwJr2/6tG2+aq4pf6AAA"
+  },
+  "bioattend-board": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 1440,
+    "aspect": 1.333,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRkQBAABXRUJQVlA4WAoAAAAQAAAAFwAAEQAAQUxQSJUAAAANgFvbkiPl/ardResQdBrYZEGI+KSCiam16CpEFSqCiJiA46M742vOnb0ePImvsXJyuLGgAvyNWcNF2KD2gQ9qT8MbPPEG8e9T2ShRNkKoQUINnK/cVLlwrbXHSqt3j4+qFFN7VkUubLNSweJgvko8LBoLLCosDWswsAbx78NG45E+Gk/DG0x4g04vHrOaxSRfsrCFLQBWUDggiAAAAJAEAJ0BKhgAEgA/EXixUiwnJKKoDVGAIglpAAUQAWc5V5FUEKubkbltE2EmAAD8ERGo1c+pUOkBHiXz5YuUeHCnYphFbEZNjWJW2kG1hMmm39HPlxbOgaXRlSp83cf20mnyPc6/Q2oyyfzULi7lbA0eiJq0VAvfNic+CKfC+IyOnbuIvEoAAAA="
+  },
+  "bioattend-thumb": {
+    "widths": [
+      338
+    ],
+    "width": 338,
+    "height": 280,
+    "aspect": 1.2071,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADQBACdASoYABQAPwVwrlArpqQisAwBcCCJaQAAW+3SW3z2dqzR1Rjto2oMX+tgAAD2u90resL0Cfuz6v8I9OUdVjOWahrY1XlqTrRs+GzmvG6ojR1mVE69NDLR4Rto+mzfb0Ez2pf6q8WtxtD+7vSFelzGhNeL2KJImYS3AAA="
+  },
+  "sweetspinner": {
+    "widths": [
+      480,
+      899
+    ],
+    "width": 899,
+    "height": 805,
+    "aspect": 1.1168,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAAAwBQCdASoYABUAPxF+tlWsJ6SjKAgBgCIJaQAAKh3yLlJV8mX0PMp3VtJ5FgTMLbFxQAD4CwthoFrQz/NdAvppYT11Jjasp8AaLSfxeAr2rGZpHt5Sb7uBHShNdX5tLZwArdnrjodmNF6bUCoAOxfoZq8Ak86+gDDWkLFSxyGdJ5YW2A2h9NQguanzjVnZGcy7a8tn1RiaP/WoIRfVB+9JQGtSBR9BF5vgAAAA"
+  },
+  "spotify-cover": {
+    "widths": [
+      640,
+      1280
+    ],
+    "width": 1280,
+    "height": 809,
+    "aspect": 1.5827,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRooAAABXRUJQVlA4WAoAAAAQAAAAFwAADgAAQUxQSCEAAAABHyAQIPyHyWIjIoITitq2gUqyJEtyV54DENH/9IPAKAgAVlA4IEIAAACwAwCdASoYAA8APxFysFAsJqSisAgBgCIJaQAASoq29AMDS9XcAAD+7qC0J25weWJOPTqMkvK7kAW+OXjctwtXAAA="
+  },
+  "spotify-shot": {
+    "widths": [
+      640,
+      818
+    ],
+    "width": 818,
+    "height": 516,
+    "aspect": 1.5853,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwAwCdASoYAA8APxFysFAsJqSisAgBgCIJaQAAW4c3vS1rcAAA/unaOQ5bnpumV8cnW8AEc4kcgRGQfdh5IcX8weYzlOZDPWuEmvfxzTxM8mXqZfOguUle+QhFK6s6l72YAAAA"
+  },
+  "binary-pcb": {
+    "widths": [
+      640,
+      1280
+    ],
+    "width": 1280,
+    "height": 1368,
+    "aspect": 0.9356,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABQBACdASoYABoAPwVkrVArpSQit/qoAXAgiWkAACLVydh2CafhdF6XsVAAAPpgyDNJXaUweef/sH5eg7YOoN+pL75cnSCTlOiyYPRN/oGlyNQegt4AuRnQ/aSPUP6phAynqAAA"
+  },
+  "servio-home": {
+    "widths": [
+      640,
+      1280,
+      1920
+    ],
+    "width": 1920,
+    "height": 877,
+    "aspect": 2.1893,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoYAAsAPxFwsFAsJiSisAgBgCIJaQAAeu2uU5nLDkoAAP7tZncsLbVlKUjtXiaPfTrM0b215NwgiAdpB0WalNhGAutbzaBVyFrR68zzDGgAAA=="
+  },
+  "servio-marketplace": {
+    "widths": [
+      640,
+      1280
+    ],
+    "width": 1280,
+    "height": 800,
+    "aspect": 1.6,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoYAA8APxF0slCsJqSisAgBgCIJaQAAXg3D3pi/fkAA/fuqdlwCoTbA34uRXAO5uohwtOcMAAA="
+  },
+  "servio-ai-finisher": {
+    "widths": [
+      640,
+      1280
+    ],
+    "width": 1280,
+    "height": 800,
+    "aspect": 1.6,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAwCdASoYAA8APxFysVAsJqSisAgBgCIJaQAAW4UvyoElMlfiUAXgAP7TVtKihaQ+HSGJfNmmOPnJ11yniO1AAAA="
+  },
+  "servio-dashboard": {
+    "widths": [
+      640,
+      1280
+    ],
+    "width": 1280,
+    "height": 800,
+    "aspect": 1.6,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoYAA8APxFwsFAsJiSisAgBgCIJaQAAUz5AKsPPG4KAAP7VxsLxA9j5sRaX9kJWylPrRMz4fABuq+LXFJBU0jdH0QFH9uGKAAA="
+  },
+  "servio-admin": {
+    "widths": [
+      640,
+      1280
+    ],
+    "width": 1280,
+    "height": 800,
+    "aspect": 1.6,
+    "hasColor": true,
+    "blur": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAwCdASoYAA8APxFysFAsJqSisAgBgCIJaQAAetFJKlQAAP7vttzk2WUo8+rmXJW388+qx3u5z/XgAAA="
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Asser Essam — Full-Stack Engineer & QA",
+  "short_name": "Asser Essam",
+  "icons": [
+    { "src": "/portfolio-website/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#060606",
+  "background_color": "#060606",
+  "display": "browser",
+  "start_url": "/portfolio-website/"
+}
